@@ -1,0 +1,267 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head></head><body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div>
+
+
+
+<h1 class="title toc-ignore">CIND 123 - Data Analytics: Basic
+Methods</h1>
+<h4 class="author"></h4>
+
+</div>
+
+
+<center>
+<h1>
+Assignment 1 (10%)
+</h1>
+</center>
+<center>
+<h3>
+[Insert your full name]
+
+</h3></center>
+<center>
+<h3>
+[Insert course section &amp; student number]
+
+</h3></center>
+
+<hr/>
+<div class="section level2">
+<h2>Instructions</h2>
+<p>This is an R Markdown document. Markdown is a simple formatting
+syntax for authoring HTML, PDF, and MS Word documents. Review this
+website for more details on using R Markdown <a rel="noopener" href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>Use RStudio for this assignment. Complete the assignment by inserting
+your code wherever you see the string “#INSERT YOUR ANSWER HERE”.</p>
+<p>When you click the <strong>Knit</strong> button, a document (PDF,
+Word, or HTML format) will be generated that includes both the
+assignment content as well as the output of any embedded R code
+chunks.</p>
+<p><strong>NOTE</strong>: YOU SHOULD NEVER HAVE
+<code>install.packages</code> IN YOUR CODE; OTHERWISE, THE
+<code>Knit</code> OPTION WILL GIVE AN ERROR. COMMENT OUT ALL PACKAGE
+INSTALLATIONS.</p>
+<p>Submit <strong>both</strong> the <code>rmd</code> and generated
+<code>output</code> files. Failing to submit both files will be subject
+to mark deduction. PDF or HTML is preferred.</p>
+</div>
+<div class="section level2">
+<h2>Sample Question and Solution</h2>
+<p>Use <code>seq()</code> to create the vector <span class="math inline">\((3,5\ldots,29)\)</span>.</p>
+<pre class="r"><code>seq(3, 30, 2)</code></pre>
+<pre><code>##  [1]  3  5  7  9 11 13 15 17 19 21 23 25 27 29</code></pre>
+<pre class="r"><code>seq(3, 29, 2)</code></pre>
+<pre><code>##  [1]  3  5  7  9 11 13 15 17 19 21 23 25 27 29</code></pre>
+</div>
+<div class="section level2">
+<h2>Question 1 (32 points)</h2>
+<div class="section level3">
+<h3>Q1a (8 points)</h3>
+<p>Create and print a vector <code>x</code> with all integers from 1 to
+80 and a vector <code>y</code> containing multiples of 3 in the same
+range. Hint: use <code>seq()</code>function. Calculate the difference in
+lengths of the vectors <code>x</code> and <code>y</code>. Hint: use
+length()</p>
+<pre class="r"><code>#INSERT YOUR ANSWER HERE</code></pre>
+</div>
+<div class="section level3">
+<h3>Q1b (8 points)</h3>
+<p>Create a new vector, <code>x_square</code>, with the square of
+elements at indices 1, 3, 5, 7, 9, 15, 20, 23, 24, and 29 from the
+variable <code>x</code>. Hint: Use indexing rather than a
+<code>for</code> loop. Calculate the mean and median of the FIRST five
+values from <code>x_square</code>.</p>
+<pre class="r"><code>#INSERT YOUR ANSWER HERE</code></pre>
+</div>
+<div class="section level3">
+<h3>Q1c (8 points)</h3>
+<p>To convert factor to number, would it be correct to use the following
+commands? Explain your answer.</p>
+<p><code>factorVar &lt;- factor(c(1, 6, 5.4, 3.2))</code>
+<code>as.numeric(factorVar)</code></p>
+<pre class="r"><code>#INSERT YOUR ANSWER HERE</code></pre>
+</div>
+<div class="section level3">
+<h3>Q1d (8 points)</h3>
+<p>A comma-separated values file <code>dataset.csv</code> consists of
+missing values represented by Not A Number (<code>NaN</code>) and
+question mark (<code>?</code>). How can you read this type of files in
+R? NOTE: Please make sure you have saved the <code>dataset.csv</code>
+file at your current working directory.</p>
+<pre class="r"><code>#INSERT YOUR ANSWER HERE</code></pre>
+</div>
+</div>
+<div class="section level2">
+<h2>Question 2 (32 points)</h2>
+<div class="section level3">
+<h3>Q2a (8 points)</h3>
+<p>Compute: <span class="math display">\[\sum_{n=1}^{50}\frac{3^{n}}{n!}\]</span> Hint:
+Use <code>factorial(n)</code> to compute <span class="math inline">\(n!\)</span>.</p>
+<pre class="r"><code>#INSERT YOUR ANSWER HERE</code></pre>
+</div>
+<div class="section level3">
+<h3>Q2b (8 points)</h3>
+<p>Compute: <span class="math display">\[\prod_{n=2}^{22} \left( 3n +
+\frac{3}{\sqrt[3]{n}} \right)\]</span> NOTE: The symbol <span class="math inline">\(\Pi\)</span> represents multiplication.</p>
+<pre class="r"><code>#INSERT YOUR ANSWER HERE</code></pre>
+</div>
+<div class="section level3">
+<h3>Q2c (8 points)</h3>
+<p>Describe what the following R command does:
+<code>c(0:5)[NA]</code></p>
+<pre class="r"><code>#INSERT YOUR ANSWER HERE</code></pre>
+</div>
+<div class="section level3">
+<h3>Q2d (8 points)</h3>
+<p>What is the difference between <code>is.vector()</code> and
+<code>is.numeric()</code> functions?</p>
+<pre class="r"><code>#INSERT YOUR ANSWER HERE</code></pre>
+</div>
+</div>
+<div class="section level2">
+<h2>Question 3 (36 points)</h2>
+<p>The <code>airquality</code> dataset contains daily air quality
+measurements in New York from May to September 1973. The variables
+include Ozone level, Solar radiation, wind speed, temperature in
+Fahrenheit, month, and day. Please see the detailed description using
+<code>help(&quot;airquality&quot;)</code>.</p>
+<p>Install the <code>airquality</code> data set on your computer using
+the command <code>install.packages(&quot;datasets&quot;)</code>. Then load the
+<code>datasets</code> package into your session.</p>
+<pre class="r"><code>library(datasets)</code></pre>
+<div class="section level3">
+<h3>Q3a (4 points)</h3>
+<p>Display the first 6 rows of the <code>airquality</code> data set.</p>
+<pre class="r"><code>#INSERT YOUR ANSWER HERE</code></pre>
+</div>
+<div class="section level3">
+<h3>Q3b (8 points)</h3>
+<p>Compute the average of the first four variables (Ozone, Solar.R, Wind
+and Temp) using the <code>sapply()</code> function. Hint: You might need
+to consider removing the <code>NA</code> values; otherwise, the average
+will not be computed.</p>
+<pre class="r"><code>#INSERT YOUR ANSWER HERE</code></pre>
+</div>
+<div class="section level3">
+<h3>Q3c (8 points)</h3>
+<p>Construct a boxplot for the <code>Ozone</code> and
+<code>Solar.R</code> variables, then display the values of all the
+outliers which lie beyond the whiskers.</p>
+<pre class="r"><code>#INSERT YOUR ANSWER HERE</code></pre>
+</div>
+<div class="section level3">
+<h3>Q3d (8 points)</h3>
+<p>Compute the upper quartile of the <code>Ozone</code> variable with
+two different methods. HINT: Only show the upper quartile using
+indexing. For the type of quartile, please see <a rel="noopener" href="https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/quantile" class="uri">https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/quantile</a>.</p>
+<pre class="r"><code>#INSERT YOUR ANSWER HERE</code></pre>
+</div>
+<div class="section level3">
+<h3>Q3e (8 points)</h3>
+<p>Construct a pie chart to describe the number of entries by
+<code>Month</code>. HINT: use the <code>table()</code> function to count
+and tabulate the number of entries within a <code>Month</code>.</p>
+<pre class="r"><code>#INSERT YOUR ANSWER HERE</code></pre>
+<p>END of Assignment #1.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="module" src="https://s.brightspace.com/lib/bsi/20.22.12-222/unbundled/mathjax.js"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+					if (document.querySelector('math') || /\$\$|\\\(|\\\[|\\begin{|\\ref{|\\eqref{/.test(document.body.innerHTML)) {
+						document.querySelectorAll('mspace[linebreak="newline"]').forEach(elm => {
+							elm.setAttribute('style', 'display: block; height: 0.5rem;');
+						});
+
+						window.D2L.MathJax.loadMathJax({
+							'outputScale': 1.3,
+							'renderLatex': true
+						});
+					}
+				});</script><script type="module" src="https://s.brightspace.com/lib/bsi/20.22.12-222/unbundled/prism.js"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+					document.querySelectorAll('.d2l-code').forEach(code => {
+						window.D2L.Prism.formatCodeElement(code);
+					});
+				});</script></body></html>

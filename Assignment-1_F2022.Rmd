@@ -1,0 +1,159 @@
+---
+title: 'CIND 123 - Data Analytics: Basic Methods'
+author: 
+output:
+  html_document: default
+---
+<center> <h1> Assignment 1 (10%) </h1> </center>
+<center>  <h3> [Insert your full name] </h2> </center>
+<center> <h3> [Insert course section & student number] </h2> </center>
+
+<style>
+body {
+    position: absolute;
+    left: 0px;}
+</style>
+---
+## Instructions 
+
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. Review this website for more details on using R Markdown <http://rmarkdown.rstudio.com>.
+
+Use RStudio for this assignment. Complete the assignment by inserting your  \texttt{R} code wherever you see the string "#INSERT YOUR ANSWER HERE".
+
+When you click the **Knit** button, a document (PDF, Word, or HTML format) will be generated that includes both the assignment content as well as the output of any embedded R code chunks.
+
+**NOTE**: YOU SHOULD NEVER HAVE `install.packages` IN YOUR CODE; OTHERWISE, THE `Knit` OPTION WILL GIVE AN ERROR. COMMENT OUT ALL PACKAGE INSTALLATIONS.
+
+Submit **both**  the `rmd` and generated `output` files. Failing to submit both files will be subject to mark deduction. PDF or HTML is preferred. 
+
+## Sample Question and Solution
+
+Use `seq()` to create the vector $(3,5\ldots,29)$.
+
+```{r}
+seq(3, 30, 2)
+seq(3, 29, 2)
+```
+
+## Question 1 (32 points)
+
+### Q1a (8 points)
+Create and print a vector `x` with all integers from 1 to 80 and a vector `y` containing multiples of 3 in the same range. Hint: use `seq()`function. Calculate the difference in lengths of the vectors `x` and `y`. 
+Hint: use length()
+
+```{r}
+#INSERT YOUR ANSWER HERE
+
+```
+
+### Q1b (8 points)
+Create a new vector, `x_square`, with the square of elements at indices 1, 3, 5, 7, 9, 15, 20, 23, 24, and 29 from the variable `x`. Hint: Use indexing rather than a `for` loop. Calculate the mean and median of the FIRST five values from `x_square`.
+
+```{r}
+#INSERT YOUR ANSWER HERE
+
+```
+
+### Q1c (8 points)
+To convert factor to number, would it be correct to use the following commands? Explain your answer. 
+
+`factorVar <- factor(c(1, 6, 5.4, 3.2))`
+`as.numeric(factorVar)`
+
+```{r}
+#INSERT YOUR ANSWER HERE
+
+```
+
+### Q1d (8 points)
+A comma-separated values file `dataset.csv` consists of missing values represented by Not A Number (`NaN`) and question mark (`?`). How can you read this type of files in R? 
+NOTE: Please make sure you have saved the `dataset.csv` file at your current working directory.
+```{r}
+#INSERT YOUR ANSWER HERE
+
+```
+
+## Question 2 (32 points)
+
+### Q2a (8 points)
+Compute: $$\sum_{n=1}^{50}\frac{3^{n}}{n!}$$
+Hint: Use `factorial(n)` to compute $n!$.
+```{r}
+#INSERT YOUR ANSWER HERE
+
+```
+
+### Q2b (8 points)
+Compute: $$\prod_{n=2}^{22} \left( 3n + \frac{3}{\sqrt[3]{n}} \right)$$
+NOTE: The symbol $\Pi$ represents multiplication.
+
+```{r}
+#INSERT YOUR ANSWER HERE
+
+```
+
+
+### Q2c (8 points)
+Describe what the following R command does:
+`c(0:5)[NA]`
+```{r}
+#INSERT YOUR ANSWER HERE
+
+```
+
+### Q2d (8 points)
+What is the difference between `is.vector()` and `is.numeric()` functions?
+```{r}
+#INSERT YOUR ANSWER HERE
+
+```
+
+## Question 3 (36 points)
+The `airquality` dataset contains daily air quality measurements in New York from May to September 1973. The variables include Ozone level, Solar radiation, wind speed, temperature in Fahrenheit, month, and day. Please see the detailed description using `help("airquality")`.
+
+Install the `airquality` data set on your computer using the command `install.packages("datasets")`. Then load the `datasets` package into your session.
+```{r}
+library(datasets)
+```
+
+### Q3a (4 points)
+Display the first 6 rows of the `airquality` data set.
+```{r}
+#INSERT YOUR ANSWER HERE
+
+```
+
+### Q3b (8 points)
+Compute the average of the first four variables (Ozone, Solar.R, Wind and Temp) using the `sapply()` function.
+Hint: You might need to consider removing the `NA` values; otherwise, the average will not be computed. 
+```{r}
+#INSERT YOUR ANSWER HERE
+
+```
+
+### Q3c (8 points)
+Construct a boxplot for the `Ozone` and `Solar.R` variables, then display the values of all the outliers which lie beyond the whiskers.
+```{r}
+#INSERT YOUR ANSWER HERE
+
+```
+
+### Q3d (8 points)
+Compute the upper quartile of the `Ozone` variable with two different methods.
+HINT: Only show the upper quartile using indexing. For the type of quartile, please see https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/quantile.
+```{r}
+#INSERT YOUR ANSWER HERE
+
+```
+
+### Q3e (8 points)
+Construct a pie chart to describe the number of entries by `Month`.
+HINT: use the `table()` function to count and tabulate the number of entries within a `Month`.
+```{r}
+#INSERT YOUR ANSWER HERE
+
+```
+
+
+END of Assignment #1.
