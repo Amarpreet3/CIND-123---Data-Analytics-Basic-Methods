@@ -1,2 +1,2 @@
-# CIND-123---Data-Analytics-Basic-Methods
+# CIND-123-Data-Analytics-Basic-Methods
 Assignment 1
